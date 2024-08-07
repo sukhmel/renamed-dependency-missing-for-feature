@@ -1,6 +1,3 @@
-#[cfg(feature = "compat-http")]
-use std::str::FromStr;
-
 pub use either_1_13::Either;
 #[cfg(feature = "compat-http")]
 pub use http::header::{HeaderMap, HeaderName, HeaderValue};

@@ -5,9 +5,13 @@ edition = "2021"
 description = "Trying to reproduce an issue with cargo not being able to find dependency under a feature flag"
 
 [dependencies]
+# feature gated, but not renamed - OK
 http = { package = "http", version = "1.0", optional = true }
+# feature gated and renamed - does not work
 http_0_2 = { package = "http", version = "0.2", optional = true }
+# renamed, but not feature gated - OK
 either_1_13 = { package = "either", version = "1.13" }
+# not renamed, not feature gated - OK
 void = "1.0"
 
 [features]

@@ -17,7 +17,11 @@ When crate is published to private registry and then referenced via registry, re
     ```
     cargo publish --registry kellnr -p example-dependency
     ```
-3. build packages
+3. update cargo index:
+    ```shell
+    cargo update
+    ```
+4. build packages
     ```
     cargo build
     ```

@@ -16,7 +16,7 @@ checksum = "60b1af1c220855b6ceac025d3f6ecdd2b7c4894bfe9cd9bda4fbb4bc7c0d4cf0"
 
 [[package]]
 name = "example-dependency"
-version = "0.1.1"
+version = "0.1.0"
 dependencies = [
  "either",
  "http 0.2.12",
@@ -26,9 +26,9 @@ dependencies = [
 
 [[package]]
 name = "example-dependency"
-version = "0.1.1"
+version = "0.1.0"
 source = "sparse+http://localhost:8000/api/v1/crates/"
-checksum = "d427533a98c2f63e60501a2d6fc6440fef95b6afc861596e212e4290519a1b61"
+checksum = "7b5fdd18f705c98249c754b8e7816fa3220120c4356a31ae0e35b3133596e458"
 dependencies = [
  "either",
  "http 1.1.0",
@@ -73,14 +73,14 @@ checksum = "49f1f14873335454500d59611f1cf4a4b0f786f9ac11f4312a78e4cf2566695b"
 name = "usage-path"
 version = "0.1.0"
 dependencies = [
- "example-dependency 0.1.1",
+ "example-dependency 0.1.0",
 ]
 
 [[package]]
 name = "usage-registry"
 version = "0.1.0"
 dependencies = [
- "example-dependency 0.1.1 (sparse+http://localhost:8000/api/v1/crates/)",
+ "example-dependency 0.1.0 (sparse+http://localhost:8000/api/v1/crates/)",
 ]
 
 [[package]]
