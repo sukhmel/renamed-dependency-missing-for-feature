@@ -16,7 +16,7 @@ checksum = "60b1af1c220855b6ceac025d3f6ecdd2b7c4894bfe9cd9bda4fbb4bc7c0d4cf0"
 
 [[package]]
 name = "example-dependency"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "either",
  "http 0.2.12",
@@ -26,9 +26,9 @@ dependencies = [
 
 [[package]]
 name = "example-dependency"
-version = "0.1.0"
+version = "0.1.1"
 source = "sparse+https://kellnr.srs.rclabenv.com/api/v1/crates/"
-checksum = "b8ae3c2d096c3cc7cf21b633dd294be601420a30b58898504e6e22e79e4f851f"
+checksum = "6b8ba034509163c7a8d750d223c0747cf8f088d167798275672a02d0ba91178b"
 dependencies = [
  "either",
  "http 1.1.0",
@@ -73,14 +73,14 @@ checksum = "49f1f14873335454500d59611f1cf4a4b0f786f9ac11f4312a78e4cf2566695b"
 name = "usage-path"
 version = "0.1.0"
 dependencies = [
- "example-dependency 0.1.0",
+ "example-dependency 0.1.1",
 ]
 
 [[package]]
 name = "usage-registry"
 version = "0.1.0"
 dependencies = [
- "example-dependency 0.1.0 (sparse+https://kellnr.srs.rclabenv.com/api/v1/crates/)",
+ "example-dependency 0.1.1 (sparse+https://kellnr.srs.rclabenv.com/api/v1/crates/)",
 ]
 
 [[package]]
