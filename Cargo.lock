@@ -27,8 +27,8 @@ dependencies = [
 [[package]]
 name = "example-dependency"
 version = "0.1.1"
-source = "sparse+https://kellnr.srs.rclabenv.com/api/v1/crates/"
-checksum = "6b8ba034509163c7a8d750d223c0747cf8f088d167798275672a02d0ba91178b"
+source = "sparse+http://localhost:8000/api/v1/crates/"
+checksum = "d427533a98c2f63e60501a2d6fc6440fef95b6afc861596e212e4290519a1b61"
 dependencies = [
  "either",
  "http 1.1.0",
@@ -80,7 +80,7 @@ dependencies = [
 name = "usage-registry"
 version = "0.1.0"
 dependencies = [
- "example-dependency 0.1.1 (sparse+https://kellnr.srs.rclabenv.com/api/v1/crates/)",
+ "example-dependency 0.1.1 (sparse+http://localhost:8000/api/v1/crates/)",
 ]
 
 [[package]]

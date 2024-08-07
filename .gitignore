@@ -1,5 +1,2 @@
-# cargo config with actual registry location
-.cargo/config.toml
-
 # artifacts
 target/*

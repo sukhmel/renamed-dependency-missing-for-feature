@@ -1,0 +1,4 @@
+[registries.kellnr]
+# default token, as seen in documentation: <https://kellnr.io/documentation#env-variables>
+token = "Zy9HhJ02RJmg0GCrgLfaCVfU6IwDfhXD"
+index = "sparse+http://localhost:8000/api/v1/crates/" 
