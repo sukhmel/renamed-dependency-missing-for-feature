@@ -1,0 +1,11 @@
+[workspace]
+resolver = "2"
+members = [
+    "dependency",
+    "usage-path",
+    "usage-registry",
+]
+
+[workspace.package]
+publish = ["kellnr"]
+edition = "2021"
