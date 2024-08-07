@@ -1,6 +1,6 @@
 [package]
 name = "example-dependency"
-version = "0.1.1"
+version = "0.1.0"
 edition = "2021"
 description = "Trying to reproduce an issue with cargo not being able to find dependency under a feature flag"
 
