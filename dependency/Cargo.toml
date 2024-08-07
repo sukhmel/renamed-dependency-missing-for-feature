@@ -1,0 +1,15 @@
+[package]
+name = "example-dependency"
+version = "0.1.0"
+edition = "2021"
+description = "Trying to reproduce an issue with cargo not being able to find dependency under a feature flag"
+
+[dependencies]
+http = { package = "http", version = "1.0" }
+http_0_2 = { package = "http", version = "0.2", optional = true }
+either_1_13 = { package = "either", version = "1.13" }
+void = "1.0"
+
+[features]
+default = []
+compat-http = ["dep:http_0_2"]

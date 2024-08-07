@@ -1,0 +1,7 @@
+[package]
+name = "usage-registry"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+example-dependency = { registry = "kellnr", version = "0.1", features = ["compat-http"] }
